@@ -1,0 +1,17 @@
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.DataAccess.deps.json
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.DataAccess.runtimeconfig.json
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.DataAccess.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.DataAccess.pdb
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.csproj.AssemblyReference.cache
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.AssemblyInfoInputs.cache
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.AssemblyInfo.cs
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\refint\ChatGptBot.DataAccess.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.pdb
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.genruntimeconfig.cache
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ref\ChatGptBot.DataAccess.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.Entity.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\bin\Debug\net6.0\ChatGptBot.Entity.pdb
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.DataAccess\obj\Debug\net6.0\ChatGptBot.DataAccess.csproj.CopyComplete

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EhxdXs3X1BPVF+IB+iwhNBrGhmx3AvaqgF/aa6HbwDg=",
+  "Source": "ChatGptBot.Api",
+  "BasePath": "_content/ChatGptBot.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
