@@ -57,7 +57,11 @@
             },
             "Microsoft.Bot.Builder": {
               "target": "Package",
-              "version": "[4.19.2, )"
+              "version": "[4.19.3, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.19.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -159,6 +163,14 @@
               "target": "Package",
               "version": "[6.6.8, )"
             },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.19.3, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.19.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -256,6 +268,14 @@
               "target": "Package",
               "version": "[6.6.8, )"
             },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.19.3, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.19.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -344,6 +364,14 @@
             "Betalgo.OpenAI.GPT3": {
               "target": "Package",
               "version": "[6.6.8, )"
+            },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.19.3, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.19.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

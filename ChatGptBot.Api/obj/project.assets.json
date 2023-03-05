@@ -86,12 +86,12 @@
           }
         }
       },
-      "Microsoft.Bot.Builder/4.19.2": {
+      "Microsoft.Bot.Builder/4.19.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bot.Connector": "4.19.2",
-          "Microsoft.Bot.Connector.Streaming": "4.19.2",
-          "Microsoft.Bot.Streaming": "4.19.2",
+          "Microsoft.Bot.Connector": "4.19.3",
+          "Microsoft.Bot.Connector.Streaming": "4.19.3",
+          "Microsoft.Bot.Streaming": "4.19.3",
           "Microsoft.Extensions.DependencyInjection": "2.1.0",
           "Microsoft.Extensions.Logging": "2.1.0"
         },
@@ -106,11 +106,11 @@
           }
         }
       },
-      "Microsoft.Bot.Connector/4.19.2": {
+      "Microsoft.Bot.Connector/4.19.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.Services.AppAuthentication": "1.6.1",
-          "Microsoft.Bot.Schema": "4.19.2",
+          "Microsoft.Bot.Schema": "4.19.3",
           "Microsoft.Extensions.Http": "2.1.0",
           "Microsoft.Extensions.Logging": "2.1.0",
           "Microsoft.Identity.Client": "4.37.0",
@@ -130,11 +130,11 @@
           }
         }
       },
-      "Microsoft.Bot.Connector.Streaming/4.19.2": {
+      "Microsoft.Bot.Connector.Streaming/4.19.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bot.Schema": "4.19.2",
-          "Microsoft.Bot.Streaming": "4.19.2",
+          "Microsoft.Bot.Schema": "4.19.3",
+          "Microsoft.Bot.Streaming": "4.19.3",
           "Microsoft.Extensions.Logging": "2.1.0",
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Pipelines": "5.0.1",
@@ -152,7 +152,7 @@
           }
         }
       },
-      "Microsoft.Bot.Schema/4.19.2": {
+      "Microsoft.Bot.Schema/4.19.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -168,7 +168,7 @@
           }
         }
       },
-      "Microsoft.Bot.Streaming/4.19.2": {
+      "Microsoft.Bot.Streaming/4.19.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging": "2.1.0",
@@ -2677,6 +2677,8 @@
         "dependencies": {
           "Betalgo.OpenAI.GPT3": "6.6.8",
           "ChatGptBot.DataAccess": "1.0.0",
+          "Microsoft.Bot.Builder": "4.19.3",
+          "Microsoft.Bot.Connector": "4.19.3",
           "Microsoft.IdentityModel.JsonWebTokens": "6.10.0",
           "Newtonsoft.Json": "13.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
@@ -2696,6 +2698,8 @@
         "dependencies": {
           "Betalgo.OpenAI.GPT3": "6.6.8",
           "ChatGptBot.Entity": "1.0.0",
+          "Microsoft.Bot.Builder": "4.19.3",
+          "Microsoft.Bot.Connector": "4.19.3",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Newtonsoft.Json": "13.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
@@ -2713,6 +2717,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Betalgo.OpenAI.GPT3": "6.6.8",
+          "Microsoft.Bot.Builder": "4.19.3",
+          "Microsoft.Bot.Connector": "4.19.3",
           "Newtonsoft.Json": "13.0.2",
           "TextCopy": "6.2.1"
         },
@@ -2814,38 +2820,38 @@
         "microsoft.azure.services.appauthentication.nuspec"
       ]
     },
-    "Microsoft.Bot.Builder/4.19.2": {
-      "sha512": "N37SGuYTsdFgbyJ5iLol0nkXk4CeqHYA/avRyy+rYEUsBY4qKNDTxB5F1zHgHQg/nSBKMVyczG0gdPdWs3r+7Q==",
+    "Microsoft.Bot.Builder/4.19.3": {
+      "sha512": "JqaP24Tq6v37CLf9XTV4ox8gP/Sn3zB7WcYWRDiClplMidB5rkJECmMiZszeI/Y4YG1QoOBNuj0FDVZ/Ib/AJA==",
       "type": "package",
-      "path": "microsoft.bot.builder/4.19.2",
+      "path": "microsoft.bot.builder/4.19.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/Microsoft.Bot.Builder.dll",
         "lib/netstandard2.0/Microsoft.Bot.Builder.xml",
-        "microsoft.bot.builder.4.19.2.nupkg.sha512",
+        "microsoft.bot.builder.4.19.3.nupkg.sha512",
         "microsoft.bot.builder.nuspec"
       ]
     },
-    "Microsoft.Bot.Connector/4.19.2": {
-      "sha512": "dbe+euVbi2qySZ/Qdv2Mkb8OtCVh3Mk0EBt9dMaVJCg7VYZOZGwT9/0aRV8QkZSGFFl0ga+WY7arBwZChGZHbA==",
+    "Microsoft.Bot.Connector/4.19.3": {
+      "sha512": "wE27WTeMQjOplMva7VTi2S1EbBCOgOoh+qBaLqEJ311iXhBhEYDVC8EUQZYnmR1TTMehNGmJG4RwVFs3LuwpnQ==",
       "type": "package",
-      "path": "microsoft.bot.connector/4.19.2",
+      "path": "microsoft.bot.connector/4.19.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/Microsoft.Bot.Connector.dll",
         "lib/netstandard2.0/Microsoft.Bot.Connector.xml",
-        "microsoft.bot.connector.4.19.2.nupkg.sha512",
+        "microsoft.bot.connector.4.19.3.nupkg.sha512",
         "microsoft.bot.connector.nuspec"
       ]
     },
-    "Microsoft.Bot.Connector.Streaming/4.19.2": {
-      "sha512": "wA4kflugfD8UJ55OjWAZ3Bnp73z95BZCdJXpeje4JQEKm1ukFrXdFtJu0mzlUM4PZrgdSDyXKMNjSIC4ZMcnpQ==",
+    "Microsoft.Bot.Connector.Streaming/4.19.3": {
+      "sha512": "4kG1K1RqkMCAQXJVLk9ktng5H/mdOvxjpe8ph3nZydOg9L/gg6cGNImudY9OJNJdBtbGRE3zWPqAm+JA5A5y3Q==",
       "type": "package",
-      "path": "microsoft.bot.connector.streaming/4.19.2",
+      "path": "microsoft.bot.connector.streaming/4.19.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2853,28 +2859,28 @@
         "lib/netstandard2.0/Microsoft.Bot.Connector.Streaming.dll",
         "lib/netstandard2.0/Microsoft.Bot.Connector.Streaming.pdb",
         "lib/netstandard2.0/Microsoft.Bot.Connector.Streaming.xml",
-        "microsoft.bot.connector.streaming.4.19.2.nupkg.sha512",
+        "microsoft.bot.connector.streaming.4.19.3.nupkg.sha512",
         "microsoft.bot.connector.streaming.nuspec"
       ]
     },
-    "Microsoft.Bot.Schema/4.19.2": {
-      "sha512": "aFYnLgkD6dSRBkek/wakpBbC1GDJi9Stffel+v9XaD2dFTI1ynUJAywoixMna7Vhs0XiqlsHUV7TNaSHaVTfiQ==",
+    "Microsoft.Bot.Schema/4.19.3": {
+      "sha512": "uWOo6ujH3fTdkQCXxtURwhu4QVFFO1+1MafbtPVnKxBH68uGNDVMfnbcd4jMRnU8SHC2IUasaBUZfX3qmFslEA==",
       "type": "package",
-      "path": "microsoft.bot.schema/4.19.2",
+      "path": "microsoft.bot.schema/4.19.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/Microsoft.Bot.Schema.dll",
         "lib/netstandard2.0/Microsoft.Bot.Schema.xml",
-        "microsoft.bot.schema.4.19.2.nupkg.sha512",
+        "microsoft.bot.schema.4.19.3.nupkg.sha512",
         "microsoft.bot.schema.nuspec"
       ]
     },
-    "Microsoft.Bot.Streaming/4.19.2": {
-      "sha512": "Ezkm0N8NcEOYM4L0Uue8bGsamYg3Ro+H8BDe1me9ANFAJ4iMfU26SgfbbtRjU3pgHPy3/y9mDKgwrEFVZgEcSw==",
+    "Microsoft.Bot.Streaming/4.19.3": {
+      "sha512": "4B99qUzIsC2FAMDTCZMJMOJicBIMWPeSnq7XNc9B5xNO2t6wi2LjcQ9lO60z9b4zFGhrX5HU/iEz4AziJDijbA==",
       "type": "package",
-      "path": "microsoft.bot.streaming/4.19.2",
+      "path": "microsoft.bot.streaming/4.19.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2882,7 +2888,7 @@
         "lib/netstandard2.0/Microsoft.Bot.Streaming.dll",
         "lib/netstandard2.0/Microsoft.Bot.Streaming.pdb",
         "lib/netstandard2.0/Microsoft.Bot.Streaming.xml",
-        "microsoft.bot.streaming.4.19.2.nupkg.sha512",
+        "microsoft.bot.streaming.4.19.3.nupkg.sha512",
         "microsoft.bot.streaming.nuspec"
       ]
     },
@@ -8216,7 +8222,8 @@
       "ChatGptBot.Business >= 1.0.0",
       "ChatGptBot.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.11",
-      "Microsoft.Bot.Builder >= 4.19.2",
+      "Microsoft.Bot.Builder >= 4.19.3",
+      "Microsoft.Bot.Connector >= 4.19.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Microsoft.IO.RecyclableMemoryStream >= 2.3.1",
@@ -8282,7 +8289,11 @@
           },
           "Microsoft.Bot.Builder": {
             "target": "Package",
-            "version": "[4.19.2, )"
+            "version": "[4.19.3, )"
+          },
+          "Microsoft.Bot.Connector": {
+            "target": "Package",
+            "version": "[4.19.3, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
