@@ -47,6 +47,7 @@ namespace ChatGptBot.Business.Manager
             var claims = new[]
                     {
                             new Claim("Name",user.Name),
+                            new Claim("Id",user.Id.ToString()),
                             new Claim("PasswordHash",user.PasswordHash.ToString()),
                             new Claim("PasswordSalt",user.PasswordSalt.ToString()),
                             new Claim("Surname",user.Surname),

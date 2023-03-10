@@ -48,6 +48,17 @@ namespace ChatGptBot.Api.Controllers
             return Ok();
 
         }
-
+        [HttpGet("GetAll-User")]
+        public async Task<IActionResult> GetAllUser()
+        {
+            var result = _userService.GetAll();
+            return Ok(result);
+        }
+        [HttpDelete("Delete-User/{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            bool result = _userService.Delete(new() { Id=id});
+            return Ok(result);
+        }
     }
 }
