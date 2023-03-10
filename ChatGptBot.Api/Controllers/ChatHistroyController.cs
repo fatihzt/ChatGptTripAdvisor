@@ -41,7 +41,7 @@ namespace ChatGptBot.Api.Controllers
             var userId= await GetCurrentUserId();
             var user = _userService.Get(u => u.Id.ToString() == userId);
             if (user == null) { return BadRequest("Not Registered"); }
-            string API_KEY = "5ae2e3f221c38a28845f05b65b1c348121dbfc76b26afedfbfdd3349";
+            string API_KEY = "";
             var httpClient = new HttpClient();
             var response = await httpClient.GetAsync($"https://api.opentripmap.com/0.1/en/places/geoname?name={prompt}&apikey={API_KEY}");
             var result = await response.Content.ReadAsStringAsync();
