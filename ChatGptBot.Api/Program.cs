@@ -37,8 +37,9 @@ builder.Services.AddAuthentication(options =>
 });
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
-
-builder.Services.AddDbContext<DataBaseContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+var key = builder.Configuration.GetConnectionString("String");
+//builder.Services.AddDbContext<DataBaseContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("String")));
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<DataBaseContext>(opt => opt.UseNpgsql(builder.Configuration["ConnectionStrings:String"]));
 builder.Services.AddOpenAIService(settings => { settings.ApiKey = builder.Configuration["OpenAIServiceOptions:ApiKey"]; }) ;
 builder.Services.AddSwaggerCustomize();
 builder.Services.AddSercices();

@@ -81,3 +81,13 @@ C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\Newtonsof
 C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\TextCopy.dll
 C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\ChatGptBot.Business.dll
 C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\ChatGptBot.Business.pdb
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\muham\source\Repos\ChatGptBot\ChatGptBot.Api\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

@@ -1,5 +1,6 @@
 ﻿using ChatGptBot.Business.Manager;
 using ChatGptBot.Business.Service;
+using ChatGptBot.DataAccess;
 using ChatGptBot.DataAccess.Abstract;
 using ChatGptBot.DataAccess.Concrete;
 

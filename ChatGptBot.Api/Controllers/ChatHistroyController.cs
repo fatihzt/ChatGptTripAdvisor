@@ -22,14 +22,12 @@ namespace ChatGptBot.Api.Controllers
     public class ChatHistroyController : ControllerBase
     {
         private readonly IChatHistoryService _chatHistoryService;
-        private readonly HttpClient _client;
         private readonly IOpenAIService _openAIService;
         private readonly IUserService _userService;
         
         public ChatHistroyController(IChatHistoryService chatHistoryService,IOpenAIService openAIService,HttpClient client,IUserService userService)
         {
             _chatHistoryService = chatHistoryService;
-            _client = client;
             this._openAIService = openAIService;
             this._userService = userService;
         }
@@ -41,7 +39,7 @@ namespace ChatGptBot.Api.Controllers
             var userId= await GetCurrentUserId();
             var user = _userService.Get(u => u.Id.ToString() == userId);
             if (user == null) { return BadRequest("Not Registered"); }
-            string API_KEY = "";
+            string API_KEY = "5ae2e3f221c38a28845f05b65b1c348121dbfc76b26afedfbfdd3349";
             var httpClient = new HttpClient();
             var response = await httpClient.GetAsync($"https://api.opentripmap.com/0.1/en/places/geoname?name={prompt}&apikey={API_KEY}");
             var result = await response.Content.ReadAsStringAsync();
@@ -62,8 +60,9 @@ namespace ChatGptBot.Api.Controllers
             }, Models.TextDavinciV3);
             ChatHistory entity = new()
             {
-                History = completionResult.Choices[0].Text,
+                Answer = completionResult.Choices[0].Text,
                 UserId = user.Id,
+                Prompt=prompt,
             };
             _chatHistoryService.Add(entity);
 
@@ -83,7 +82,7 @@ namespace ChatGptBot.Api.Controllers
         private async Task<string> GetCurrentUserId()
         {
 
-            var userIdClaim = User.FindFirst("UserId");
+            var userIdClaim = User.FindFirst("Id");
             string userId = userIdClaim.Value.ToString();
             return userId;
         }

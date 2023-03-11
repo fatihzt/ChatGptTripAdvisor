@@ -37,12 +37,12 @@ namespace ChatGptBot.Api.Controllers
         public async Task<IActionResult> Login(UserLoginRequest user)
         {
             var result = _userService.GetAll(u => u.Mail == user.Mail);
-            if (result.Count >= 1) { return BadRequest("user is already exist"); }
+            if (result.Count == 0) { return BadRequest("user is not found"); }
             foreach (var item in result)
             {
                 if (!_userService.VerifyPasswordHash(user.Password, item.PasswordHash, item.PasswordSalt)) return BadRequest("wrong info");
                 string token = _userService.CreateToken(item);
-                UserLoginResponse loginResponse = new() { Mail = user.Mail, Password = user.Password };
+                UserLoginResponse loginResponse = new() { Mail = user.Mail, Password = token };
                 return Ok(loginResponse);
             }
             return Ok();

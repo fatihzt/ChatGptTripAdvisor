@@ -185,6 +185,10 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "TextCopy": {
               "target": "Package",
               "version": "[6.2.1, )"
